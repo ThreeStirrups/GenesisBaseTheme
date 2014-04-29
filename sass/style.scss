@@ -1,6 +1,8 @@
 //Import Variables
+@import "variables";
 
 //Import Mixins
+@import "mixins";
 
 /*
     Theme Name: Genesis Base Theme
@@ -25,7 +27,7 @@
         - Objects
         - Forms
         - Tables
-    - Structure and Layout
+    - Structure & Layout
         - Site Containers
         - Column Widths and Positions
         - Column Classes
@@ -54,7 +56,7 @@
     - Sidebars
     - Footer Widgets
     - Site Footer
-    - Media Queries
+    - Responsive
         - max-width: 1139px
         - max-width: 1023px
         - max-width: 767px
@@ -62,18 +64,57 @@
 */
 
 
-// Import HTML5 Reset
-// Import Defaults
-// Import Structure and Layout
-// Import Common Classes
-// Import Widgets
-// Import Plugins
-// Import Site Header
-// Import Site Navigation
-// Import Content Area
-// Import Sidebars
-// Import Footer Widgets
-// Import Site Footer
-// Import Media Queries
+/* HTML5 Reset
+=====================================================================================================*/
+@import "reset";
+
+/* Defaults
+=====================================================================================================*/
+@import "defaults";
+
+/* Structure & Layout
+=====================================================================================================*/
+@import "structure";
+
+/* Common Classes
+=====================================================================================================*/
+@import "common";
+
+/* Widgets
+=====================================================================================================*/
+@import "widgets";
+
+/* Plugins
+=====================================================================================================*/
+@import "plugins";
+
+/* Site Header
+=====================================================================================================*/
+@import "header";
+
+/* Site Navigation
+=====================================================================================================*/
+@import "navigation";
+
+/* Content Area
+=====================================================================================================*/
+@import "content";
+
+/* Sidebars
+=====================================================================================================*/
+@import "sidebars";
+
+/* Footer Widgets
+=====================================================================================================*/
+@import "footerwidgets";
+
+/* Site Footer
+=====================================================================================================*/
+@import "footer";
+
+/* Responsive
+=====================================================================================================*/
+@import "responsive";
+
 
 
